@@ -1,7 +1,7 @@
 python test.py  \
 --name test \
 --model  eSL-Net++_sr  \
---load_G './pre_trained/esl_plusplus_sr_pretrained.pt' \
+--load_G '../pre_trained/esl_plusplus_sr_pretrained.pt' \
 --dataset_mode gopro \
 --img_start_idx 16 \
 --img_inter_idx 3 \
