@@ -1,0 +1,11 @@
+python test.py  \
+--name test \
+--model  eSL-Net++_sr  \
+--load_G './pre_trained/esl_plusplus_sr_pretrained.pt' \
+--dataset_mode realdata \
+--img_start_idx 1 \
+--img_inter_idx 1 \
+--num_frames_for_blur 1 \
+--input_blur_path  '../test_data/realdata_test/' \
+--output_dir '../method_results/realdata_test/' \
+--cuda

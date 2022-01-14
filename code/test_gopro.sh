@@ -1,0 +1,12 @@
+python test.py  \
+--name test \
+--model  eSL-Net++_sr  \
+--load_G './pre_trained/esl_plusplus_sr_pretrained.pt' \
+--dataset_mode gopro \
+--img_start_idx 16 \
+--img_inter_idx 3 \
+--num_frames_for_blur 1 \
+--input_blur_path  '../test_data/gopro_test/blur_images/' \
+--input_event_path '../test_data/gopro_test/eventstream_mat/' \
+--output_dir '../method_results/gopro_test/' \
+--cuda
