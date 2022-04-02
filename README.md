@@ -106,7 +106,7 @@ Pretrained model can be downloaded via [Google Drive](https://drive.google.com/d
 
   `cd code`
 
-#### Testing on Gopro testing data
+#### Testing on synthetic GoPro dataset
 
 Use the following command to test eSL-Net++ on Gopro testing data:
 
@@ -129,13 +129,13 @@ OR you can execute the script test_gopro.sh directly:
 
 `bash test_gopro.sh ` 
 
-#### Testing on HQF testing data
+#### Testing on HQF dataset
 
 You can execute the script test_hqf.sh directly:
 
 `bash test_hqf.sh ` 
 
-#### Testing on testing real data
+#### Testing on RWS dataset
 
 You can execute the script test_realdata.sh directly:
 
@@ -182,3 +182,5 @@ If you find our work useful in your research, please cite the following publicat
 ```
 
 2. eSL-Net++ (has been submitted)
+
+Learning to Super-Resolve Blurry Images with Events
