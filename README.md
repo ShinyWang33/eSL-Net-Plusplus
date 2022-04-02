@@ -108,7 +108,7 @@ Pretrained model can be downloaded via [Google Drive](https://drive.google.com/d
 
 #### Testing on synthetic GoPro dataset
 
-Use the following command to test eSL-Net++ on Gopro testing data:
+Use the following command to test eSL-Net++ on synthetic GoPro dataset:
 
 ```
 python test.py  \
