@@ -4,7 +4,7 @@ This repository contains the official PyTorch implementation of the paper: Learn
 
 ## Introduction
 
-eSL-Net++ is a explainable network for recovering a sequence of sharp and clear images with High Resolution from a single blurry image with Low Resolution and corresponding events. Experimental results on synthetic and real-world datasets show that the proposed eSL-Net++ outperforms state-of-the-art methods by a large margin.
+eSL-Net++ is an explainable network for recovering a sequence of sharp and clear images with High Resolution from a single blurry image with Low Resolution and corresponding events. Experimental results on synthetic and real-world datasets show that the proposed eSL-Net++ outperforms state-of-the-art methods by a large margin.
 
 <div  align="center">    
 <img src="figs/show.png" width = "600"  alt="show" align=center />   
@@ -24,19 +24,19 @@ Figure 1. Event-enhanced Sparse Learning Network (eSL-Net++) for super-resolving
 
 #### Qualitative Comparisons
 
-synthetic GoPro dataset (with ground truth)
+synthetic GoPro dataset
 
 <div  align="center">    
 <img src="figs/syn.png" width = "600"  alt="show" align=center />   
 </div>
 
-HQF dataset (with ground truth)
+HQF dataset
 
 <div  align="center">    
 <img src="figs/realevent.png" width = "600"  alt="show" align=center />   
 </div>
 
-real-world scenes (RWS) dataset (without ground truth)
+real-world scenes (RWS) dataset
 
 <div  align="center">    
 <img src="figs/real.png" width = "600"  alt="show" align=center />   
@@ -183,4 +183,10 @@ If you find our work useful in your research, please cite the following publicat
 
 2. eSL-Net++ (has been submitted)
 
-Learning to Super-Resolve Blurry Images with Events
+```
+@inproceedings{wang2020event,
+  title={Learning to Super-Resolve Blurry Images with Events},
+  author={Yu, Lei and Wang, Bishan and Zhang, Xiang and Zhang, Haijian and Yang, Wen and Liu, Jianzhuang and Xia, Gui-Song},
+  year={2022},
+}
+```
