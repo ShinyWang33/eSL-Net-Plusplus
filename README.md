@@ -184,7 +184,7 @@ If you find our work useful in your research, please cite the following publicat
 2. eSL-Net++ (has been submitted)
 
 ```
-@inproceedings{wang2020event,
+@inproceedings{yu2022learning,
   title={Learning to Super-Resolve Blurry Images with Events},
   author={Yu, Lei and Wang, Bishan and Zhang, Xiang and Zhang, Haijian and Yang, Wen and Liu, Jianzhuang and Xia, Gui-Song},
   year={2022},
