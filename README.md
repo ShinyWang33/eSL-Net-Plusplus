@@ -3,8 +3,8 @@
 This repository contains the official PyTorch implementation of the paper: Learning to Super-Resolve Blurry Images with Events.
 
 ## Introduction
-
-eSL-Net++ is an explainable network for recovering a sequence of sharp and clear images with High Resolution from a single blurry image with Low Resolution and corresponding events. Experimental results on synthetic and real-world datasets show that the proposed eSL-Net++ outperforms state-of-the-art methods by a large margin.
+Super-Resolution from a single motion Blurred image (SRB) is a severely ill-posed problem due to the joint degradation of motion blurs and low spatial resolution.
+To address this, we employ events to alleviate the burden of SRB and propose an Event-enhanced SRB (E-SRB) algorithm, which can generate a sequence of sharp and clear images with High Resolution (HR) from a single blurry image with Low Resolution (LR). Specifically, we first formulate an event-enhanced degeneration model to consider the low spatial resolution, motion blurs, and event noises simultaneously, and then build an event-enhanced Sparse Learning Network (eSL-Net++) upon a dual sparse learning scheme where both events and intensity frames are modeled with sparse representations. Experimental results on synthetic and real-world datasets show that the proposed eSL-Net++ outperforms state-of-the-art methods by a large margin.
 
 <div  align="center">    
 <img src="figs/show.png" width = "600"  alt="show" align=center />   
@@ -27,7 +27,7 @@ Figure 1. Event-enhanced Sparse Learning Network (eSL-Net++) for super-resolving
 synthetic GoPro dataset
 
 <div  align="center">    
-<img src="figs/syn.png" width = "600"  alt="show" align=center />   
+<img src="figs/syn.PNG" width = "600"  alt="show" align=center />   
 </div>
 
 HQF dataset
