@@ -10,10 +10,6 @@ To address this, we employ events to alleviate the burden of SRB and propose an 
 <img src="figs/show.png" width = "600"  alt="show" align=center />   
 </div>
 
-<div  align="">    
-Figure 1. Event-enhanced Sparse Learning Network (eSL-Net++) for super-resolving blurry images with events.
-</div>
-
 ## Results
 
 #### Quantitative Comparisons
