@@ -10,10 +10,9 @@ To address this, we employ events to alleviate the burden of SRB and propose an 
 <img src="figs/show.png" width = "600"  alt="show" align=center />   
 </div>
 
-Experimental results on synthetic and real-world datasets show that the proposed eSL-Net++ outperforms state-of-the-art methods by a large margin.
 
 ## Results
-
+Experimental results on synthetic and real-world datasets show that the proposed eSL-Net++ outperforms state-of-the-art methods by a large margin.
 #### Quantitative Comparisons
 
 <div  align="center">    
