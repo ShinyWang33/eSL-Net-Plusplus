@@ -7,7 +7,7 @@ Super-Resolution from a single motion Blurred image (SRB) is a severely ill-pose
 To address this, we employ events to alleviate the burden of SRB and propose an Event-enhanced SRB (E-SRB) algorithm, which can generate a sequence of sharp and clear images with High Resolution (HR) from a single blurry image with Low Resolution (LR). Specifically, we first formulate an event-enhanced degeneration model to consider the low spatial resolution, motion blurs, and event noises simultaneously, and then build an event-enhanced Sparse Learning Network (eSL-Net++) upon a dual sparse learning scheme where both events and intensity frames are modeled with sparse representations.
 
 <div  align="center">    
-<img src="figs/show.png" width = "600"  alt="show" align=center />   
+<img src="figs/show.png" width = "800"  alt="show" align=center />   
 </div>
 
 
@@ -181,7 +181,7 @@ If you find our work useful in your research, please cite the following publicat
 2. eSL-Net++ (has been submitted)
 
 ```
-@inproceedings{yu2022learning,
+@article{yu2022learning,
   title={Learning to Super-Resolve Blurry Images with Events},
   author={Yu, Lei and Wang, Bishan and Zhang, Xiang and Zhang, Haijian and Yang, Wen and Liu, Jianzhuang and Xia, Gui-Song},
   year={2022},
