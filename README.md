@@ -1,6 +1,6 @@
 # eSL-Net++
 
-This repository contains the official PyTorch implementation of the paper: Learning to Super-Resolve Blurry Images with Events.
+This repository contains the official PyTorch implementation of the paper: [Learning to Super-Resolve Blurry Images with Events](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10029887).
 
 ## Introduction
 Super-Resolution from a single motion Blurred image (SRB) is a severely ill-posed problem due to the joint degradation of motion blurs and low spatial resolution.
@@ -171,19 +171,20 @@ If you find our work useful in your research, please cite the following publicat
 @inproceedings{wang2020event,
   title={Event enhanced high-quality image recovery},
   author={Wang, Bishan and He, Jingwei and Yu, Lei and Xia, Gui-Song and Yang, Wen},
-  booktitle={Computer Vision--ECCV 2020: 16th European Conference, Glasgow, UK, August 23--28, 2020, Proceedings, Part XIII 16},
+  booktitle={ECCV},
   pages={155--171},
   year={2020},
   organization={Springer}
 }
 ```
 
-2. eSL-Net++ (has been submitted)
+2. [eSL-Net++](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10029887)
 
 ```
 @article{yu2022learning,
   title={Learning to Super-Resolve Blurry Images with Events},
   author={Yu, Lei and Wang, Bishan and Zhang, Xiang and Zhang, Haijian and Yang, Wen and Liu, Jianzhuang and Xia, Gui-Song},
-  year={2022},
+  booktitle={IEEE TPAMI}
+  year={2023},
 }
 ```
