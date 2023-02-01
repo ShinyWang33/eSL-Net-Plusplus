@@ -16,7 +16,7 @@ Experimental results on synthetic and real-world datasets show that the proposed
 #### Quantitative Comparisons
 
 <div  align="center">    
-<img src="figs/quantitative_results.png" width = "600"  alt="show" align=center />   
+<img src="figs/quantitative_results.png" width = "800"  alt="show" align=center />   
 </div>
 
 #### Qualitative Comparisons
